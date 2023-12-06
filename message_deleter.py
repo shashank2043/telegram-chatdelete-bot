@@ -1,6 +1,6 @@
 import telebot
 #words=['id','reddy','+917377379177']
-API_TOKEN = '5353018551:AAE7dBbVq9aaok9dCpqQhjzbJeJeM71Nubg'
+API_TOKEN = 'enter bot token here'
 
 bot = telebot.TeleBot(API_TOKEN)
 @bot.channel_post_handler(content_types=['text'])
